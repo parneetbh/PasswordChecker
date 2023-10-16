@@ -14,7 +14,7 @@ Requests library (install via pip install requests)
 ## Installation
 
 Clone the repository to your local machine:
-git clone https://github.com/your-username/password-checker.git
+git clone https://github.com/parneetbh/PasswordChecker.git
 
 Change the directory to the project folder:
 cd password-checker
