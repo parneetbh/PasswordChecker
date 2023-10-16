@@ -1,17 +1,17 @@
-Password Checker
+# Password Checker
 
 This Python script checks if a given password has been previously exposed in data breaches using the Pwned Passwords API. It uses a k-anonymity model to protect your sensitive information while performing the check.
 
-Getting Started
+## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
 
-Prerequisites
+## Prerequisites
 
 Python 3.x
 Requests library (install via pip install requests)
 
-Installation
+## Installation
 
 Clone the repository to your local machine:
 git clone https://github.com/your-username/password-checker.git
@@ -22,7 +22,7 @@ cd password-checker
 Run the script with your password as an argument:
 python password_checker.py your_password
 
-How it Works
+## How it Works
 
 The script utilizes the Pwned Passwords API, which provides a secure way to check if a password has been exposed in previous data breaches without sending the actual password. It works as follows:
 The input password is hashed using SHA-1.
@@ -30,7 +30,7 @@ The first 5 characters of the hashed password are sent to the Pwned Passwords AP
 The API responds with a list of suffixes and counts.
 The script compares the hashed password's suffix with the received suffixes to determine if the password has been compromised.
 
-Usage
+## Usage
 
 To check a password, run the script with the password(s) you want to check as arguments. For example:
 
